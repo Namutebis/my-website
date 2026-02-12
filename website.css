@@ -1,15 +1,18 @@
 body{
     background-color: aliceblue;
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
     
 }
 .containerOne{
     height: 400px;
     width: 400px;
-    /* display: flex; */
-    justify-content: center;
-    /* align-items: center; */
-    /* height: 100vh; */
-    background-color: rgb(42, 132, 165);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(165, 42, 140);
     border-style: double;
 
 }
